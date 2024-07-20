@@ -1,0 +1,41 @@
+.section{
+    background: #3aafa9;
+    padding: 20px 38px;
+    border-radius: 20px;
+    border: 1.5px solid #044c49;
+    box-shadow: 10px 10px 5px #044c49;
+    margin: 0 0 40px;
+}
+.section h1{
+    font-size: 1.25em;
+}
+.section p {
+    font-size: 1em;
+}
+.section div{
+    margin: 40px;
+}
+
+.signUp{
+    background: #0b938d;
+    margin: 0;
+}
+/* 320px — 480px: Mobile devices.
+481px — 768px: iPads, Tablets.
+769px — 1024px: Small screens, laptops.
+1025px — 1200px: Desktops, large screens */
+
+
+@media (min-width: 320px) and (max-width: 480px){
+    .section{
+        padding: 10px 10px;
+        margin: 0 0 20px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px){
+    .section{
+        padding: 15px 15px;
+        margin: 0 0 30px;
+    }
+}
