@@ -1,0 +1,19 @@
+main iframe{
+    border: 2px solid #000;
+    width: 100%;
+    border-radius: 10px;
+}
+main .section2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.section2 .star{
+    color: red;
+}
+.information input{
+    width: 70%;
+}
